@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+.mainContainer {
+    height: auto:
+    width:50%;
+    background-color: lightgrey;
+    
+}
+
+#navList {
+        list-style-type: none:
+}
+
+.navElement {
+    list-style-type: none:
+    color: grey;
+    text-decoration: none:
+}
