@@ -1,20 +1,110 @@
-h1 {
-    color: red;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
+body {
+  background-color: white;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
 
 .mainContainer {
-    height: auto:
-    width:50%;
-    background-color: lightgrey;
-    
+    height: auto;
+    width: 50%;
+    background-color: #415A77;
+    margin: 0 auto;
+
 }
 
-#navList {
-        list-style-type: none:
+
+.mainHeaderContainer {
+
+  width: 100%;
+  height: auto;
+  background-color: #415A77;
+}
+
+.nameOfPortofolio {
+  background-color: #415A77;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.nameOfPortofolio h1 {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 6em;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.navContainer {
+  width: 40em;
+  height: 4em;
+  background-color: #415A77;
+  margin: 0em auto;
+  text-align: center;
+
 }
 
 .navElement {
-    list-style-type: none:
-    color: grey;
-    text-decoration: none:
+  color: #F0EBD8;
+  font-weight: 200;
+}
+
+#navList li {
+  padding-left: 3em;
+  padding-right: 3em;
+  display: inline;
+  font-size: 1.2em;
+  list-style-type: none;
+
+}
+
+a:hover {
+color: white;
+
+}
+
+.mainPageFlex {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.pictureContainer {
+  height: 20em;
+  width: 40%;
+  background-color: blue;
+}
+
+.textContainer {
+  height: 20em;
+  width: 40%;
+  background-color: green;
+}
+
+footer {
+  height: 6em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  color: Black;
+  font-size: 0.9em;
 }
