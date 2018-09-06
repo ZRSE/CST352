@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 7.5em;
+    background-color: darkblue;
+    margin: 0 auto;
+}
+
+.top {
+    width: 50%;
+    height: 7.5em;
+    margin: 0 auto;
+}
+
+.top p {
+    font-size: 3em;
+    color: white;
+}
+
+.txt {
+     width: 50%;
+    height: 7.5em;
+    margin: 0 auto;
+    margin-top: 2em;
+    
+}
+
+.degree {
+        width: 50%;
+    height: 7.5em;
+    margin: 0 auto;
+    font-size: 2em;
+}
