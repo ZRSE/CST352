@@ -33,7 +33,7 @@ html {
 
 
 .navigation {
-  width: 40em;
+  width: 45em;
   height: 3em;
   background-color: black;
   margin: 0 auto;
@@ -51,18 +51,17 @@ html {
   width: 10em;
   background-color: black;
   text-align: center;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+
 
 }
 
 .navigation a {
   text-decoration: none;
   color: white;
-  width: 8em;
-  background-color: black;
-  font-size: 1.5em;
+  width: 6em;
+  font-size: 1.4em;
   font-weight: 200;
+
 
 
 }
