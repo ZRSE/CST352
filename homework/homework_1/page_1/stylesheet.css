@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ /*{
+  background-image: url("img/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+html {
+  background: url(img/bg.jpg) no-repeat center center fixed;
+}
+
+
+
+.topContainer {
+  width: 65em;
+  background-color: black;
+  height: 6em;
+  margin: 0 auto;
+  margin-top: 3em;
+
+  opacity: 0.8;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+
+
+}
+
+
+.navigation {
+  width: 40em;
+  height: 3em;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  float: right;
+  padding: 1.5em 0 1.5em 1.5em;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+
+
+}
+
+.navigation li {
+
+  display: inline-flex;
+  width: 10em;
+  background-color: black;
+  text-align: center;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  width: 8em;
+  background-color: black;
+  font-size: 1.5em;
+  font-weight: 200;
+
+
+}
+
+.title {
+  height: 3em;
+  width: 16em;
+  background-color: black;
+  float: left;
+  padding: 1.5em 0 1.5em 1.5em;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.title h1 {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.content {
+  width: 65em;
+  background-color: black ;
+  height: 40em;
+  margin: 0 auto;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 0.8;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.flexForContent {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  background-color: black;
+  height: auto;
+  width: 55em;
+  margin: 0  auto;
+}
+
+.relevantPicture {
+  height: 18em;
+  width: 25em;
+  background-color: black;
+}
+
+.relevantText {
+  height: 18em;
+  width: 25em;
+  background-color: black;
+  color: white;
+}
+
+.relevantText p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding-top: 1em;
+}
+
+.relevantText h3 {
+  font-size: 1.5em;
+
+}
+.relevantPicture img {
+  width: 100%;
+}
+
+.bold {
+  color: grey;
+}
+
+.pictureText a   {
+  color: white;
+  font-size: 0.6em;
+
+}
