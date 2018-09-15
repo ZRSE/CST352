@@ -13,7 +13,7 @@
     
     #main {
         font-family: 'Baloo Bhaina', cursive;
-        background-image:url("../img/machine.png");
+        background-image:url("../img/machine.png"); 
         width:600px;
         height:500px;
         position:relative;
