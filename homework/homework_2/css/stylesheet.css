@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #051937, #292a63, #603389, #a330a4, #eb12af);
+  
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+.rpsPictures {
+    width: 60em;
+    height: 13em;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.playerOne {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.playerTwo {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.playerOne, .playerTwo img {
+    margin: 0 auto;
+  
+}
+
+.winLoose {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+
+}
+
+.button {
+    margin: 0 auto;
+    width: 5em;
+    height: 2em;
+    margin-top: 2em;
+    
+
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    50% {opacity: 0.3;}
+    100% {opacity: 0.5;}
+}
+
+
+
+#playButton {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border-style: none;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+img {
+    width: 100px;
+}
+
+button {
+    border-radius: 1em;
+}
+
