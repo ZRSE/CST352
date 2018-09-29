@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #ffffff, #e8e8e8, #d1d1d1, #bbbbbb, #a5a5a5);
+    background-repeat: no-repeat;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.pokerTable {
+    background-color: green;
+    padding: 2em;
+    width: 30em;
+    height: auto;
+    border-radius: 3em;
+    margin: 0 auto;
+}
+ h1 {
+    
+    /*color: red;*/
+    animation: coolTitle 3s infinite;
+}
+
+@keyframes coolTitle {
+    
+   from{color: red;}
+   to {color: green;}
+
+  
+
+}
+
+.players {
+    color: white;
+    font-size: 1.4em;
+}
+
+
+.points {
+    color: white;
+    opacity: 0.5;
+}
