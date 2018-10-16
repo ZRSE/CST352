@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i');
+
+*:focus {
+    outline: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #1e3250;
+    text-align: center;
+}
+
+footer p a {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+footer p {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.container {
+    width: 50em;
+    min-height: 35em;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.phpContent {
+      animation-name: colorFade;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    margin-top: 2em;
+    line-height: 2em;
+    
+}
+
+#spanTxt {
+    
+    animation-name: colorFade;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    color: #7B8CDE;
+    font-weight: bolder;
+}
+
+#spanSum {
+    font-weight: bolder;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+#citySelect {
+    border-style: none;
+    background-color: #1e3250;
+    color: white;
+    font-size: 1.1em;
+    width: 6em;
+    
+}
+
+#btn {
+     border-style: none;
+    background-color: black;
+    border-radius: 0.2em;
+    color: white;   
+    height: 1.8em;
+    margin-left: 0.5em;
+    font-weight: 200;
+    animation-delay: 0s;
+    animation-duration: 5s;
+}
+
+#weekly p{
+    font-style: italic;
+}
+
+@keyframes colorFade {
+    from {color: #1e3250; }
+    to {color: white;}
+}
+
+#header {
+    animation-name: colorFade;
+    animation-delay: 0s;
+    animation-duration: 5s;
+}
+
+form {
+    width: auto;
+}
+
+input {
+    color: white;
+}
+
+label {
+    font-style: italic;
+}
+
+.checkBox {
+    border-style: none;
+    width: 1.1em;
+    height: 1.1em;
+     
+}
+
+form:hover {
+    color: grey;
+}
+
+h1:hover {
+    color: red;
+}
