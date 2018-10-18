@@ -22,7 +22,10 @@ function displayAuthorInfo() {
     echo "<article class='left'> <p><span id='strong'>Date of Birth:</span> " . $record['dob'] . "<br>";
     echo "<span id='strong'> Date of Death:</span> " . $record['dod'] . "<br>";
     echo "<span id='strong'>Bio:</span> " . $record['bio'] . "<br>";
-    echo "<span id='strong'>Country of Origin:</span> " . $record['country'] . "</p> </article>";
+    echo "<span id='strong'>Country of Origin:</span> " . $record['country'] . "<br>";
+    echo "<span id='strong'>Gender:</span> " . $record['gender'] . "<br>";
+    echo "<span id='strong'>Profesion:</span> " . $record['profession'] . "</p> </article>";
+
 
     echo "<article class='right'>";
     echo "<img src='" .$record['picture']."'>";
