@@ -1,6 +1,5 @@
 <?php 
  
-include '../../sqlconnection.php';
 $dbConn = getConnection("quotes");
 
 function displayAuthorInfo() {
