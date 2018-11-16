@@ -16,6 +16,13 @@
             var guessSubmit = document.querySelector('.guessSubmit');
             var guessField = document.querySelector('.guessField');
             
+            var countWon = 0;
+            var countLost = 0;
+            
+               $("#won").html("Won games: " + countWon);
+                $("#lost").html("Lost games: " + countLost);
+            
+            
             
         
 
@@ -40,10 +47,12 @@
                     $("#lastResult").html("Congrats! You got it right!");
                     lastResult.style.backgroundColor = "green";
                     $("#lowOrHi").html("");
+                    countWon++;
                     setGameOver();
                } 
                else if(guessCount === 7) {
                    lastResult.innerHTML = 'Sorry, you lost!';
+                   countLost++;
                    setGameOver();
                }
                else {
@@ -82,6 +91,10 @@
                 for (var i = 0; i < resetParas.length; i++) {
                     resetParas[i].textContent = '';
                 }
+                
+                $("#won").html("Won games: " + countWon);
+                $("#lost").html("Lost games: " + countLost);
+            
                 
                 resetButton.style.display = 'none';
                 
