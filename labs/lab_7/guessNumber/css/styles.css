@@ -1,0 +1,24 @@
+body {
+    text-align:center;
+    /*background-image: url("../img/numbers_bg.jpg");*/
+    background-color: #001f3f;
+    /*background-size: cover;*/
+    color: #7FDBFF;
+}
+
+.jumbotron {
+    background-color: #001f3f;
+}
+
+#directions {
+    background-color: #001f3f;
+    font-size: 2em;    
+    width:900px;
+    height:200px;
+    margin:0 auto;
+    border-radius:20px;
+}
+
+.guessSubmit {
+    color:  #001f3f;
+}
