@@ -1,0 +1,21 @@
+body {
+    background-color: #39CCCC;
+}
+
+
+.mainCont {
+    width: 35em;
+    margin: 0 auto;
+    margin-top: 3em;
+
+
+}
+
+.form-control {
+    width: 32em;
+    
+}
+
+.info {
+    font-weight: bold;
+}
