@@ -1,0 +1,32 @@
+
+<html>
+
+<head>
+	<title>SPACE INVADERS</title>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body onload="init()">
+	<h2 style="text-align: center; margin-top: 2em;">Space invaders alpha v0.01</h2>
+
+	<div id="gameScreen">
+		<div class="gameOver" id="gO">
+			<h1>Game Over</h1>
+		</div>
+	</div>
+	<div class="restartBtn">
+		<button id="btn">Restart</button>
+	</div>
+
+	<div id="output"></div>
+	<div class="score">Score:<span id="score">0</span></div>
+	<audio src="shoot.mp3" id="shoot"></audio>
+	<audio src="gameover.mp3" id="gameOverSound"></audio>
+	<audio src="explosion.mp3" id="explosionSound"></audio>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
