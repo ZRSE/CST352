@@ -1,5 +1,5 @@
 <?php
-    include '../../../sqlconnection.php';
+    include '../../../../sqlconnection.php';
     $dbConn = getConnection("pets");
     
     function displayPet(){
