@@ -1,0 +1,14 @@
+body, .jumbotron {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    
+}
+
+#carouselExampleIndicators{
+    width: 45em;
+    margin: auto;
+}
+
+
+            
